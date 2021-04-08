@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class tm_01_handson_15 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		int count = 0;
+		
+		for(int i = 2; i < num; i++) {
+			if(num % i == 0) {
+				count++;
+			}
+			else {
+				continue;
+			}
+		}
+		if(count == 0) {
+			System.out.println("Number is prime");
+		}
+		else {
+			System.out.println("Number is NOT prime");
+		}
+		}
+}
