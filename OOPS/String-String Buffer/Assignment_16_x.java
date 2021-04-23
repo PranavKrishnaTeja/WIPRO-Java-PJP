@@ -6,7 +6,6 @@ public class Assignment_16_x {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the word: ");
 		String one = sc.nextLine();
-		one.toLowerCase();
 		int num = one.length();
 
 		if(one.charAt(0) == 'x' && one.charAt(num-1) == 'x' || one.charAt(0) == 'X' && one.charAt(num-1) == 'X') {
